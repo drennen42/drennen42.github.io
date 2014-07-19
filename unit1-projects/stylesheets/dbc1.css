@@ -1,0 +1,25 @@
+h1 {
+	font-family:"Verdana";
+	color:blue;
+}
+
+h3 {
+	text-align:center;
+	color:red;
+}
+
+#Paragraphs {
+	background-color:gray;
+	width: 400px;
+}
+
+.bold{
+	font-family:"tahoma";
+	font-weight:bold;
+}
+
+img {
+	align-items: center;
+	height:300px;
+	width:400px;
+}
