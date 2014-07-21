@@ -1,0 +1,41 @@
+.img_container {
+	background-color: gray;
+	margin: 0 auto;
+	width: 75%;
+	border-style: ridge;
+	border-width: 10px;
+	border-color: blue;
+}
+
+.screenshot_title {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	/*float: right;*/
+	border-style: ridge;
+	border-width: 10px;
+	border-color: red;
+}
+
+.screenshot_text {
+	border-style: ridge;
+	border-color: red;
+	border-width: 10px;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	color: blue;
+}
+
+.screenshot_text ol {
+	text-align: left;
+}
+
+.screenshot {
+	width: 70%;
+	display: block;
+	border-style: ridge;
+	border-width: 10px;
+	border-color: red;
+	margin: auto;
+}

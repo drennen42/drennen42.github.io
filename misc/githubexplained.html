@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GitHub Explained</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/githubexplained.css"/>
+</head>
+<body>
+	<p>
+		<div class ="img_container">
+			<div class="screenshot_title"><h2>Local Repo</h2><h4>(folders on your computer)</h4>
+			</div>
+			<img class="screenshot" src="images/local_repo.jpg">
+			<div class="screenshot_text">
+				<p>The .git "hidden" folder needs to be inside the highest level folder so it can track all changes that happen inside that folder and all subfolders of that folder.</p>
+				<p><strong>*** It's imperative that you only have ONE .git folder in your whole local repository!! ***</strong></p>
+				<p>If you have a .git folder in your [username].github.io folder and one in [username].github.io/[folder with html files] you will be tracking changes twice, have 2 different HEADs with different checksum sequences, resulting in errors.</p>
+				<p>If this is how you have your local repo currently setup, you will have to: 
+					<ol>
+						<li>Locally, on your computer - move all files and folders from your [username].github.io folder to a different directory on your computer, like your desktop</li>
+						<li>remove ALL .git folders</li>
+						<li>In your github account online (www.github.com), delete your [username].github.io repository completely</li>
+						<li>Go through the steps to create the [username].github.io again (on github.com, under repositories, click "new" and name it [username].github.io).</li> <li>Move the files and folders from your desktop back into where they were previously.</li>
+						<li>Open your terminal, navigate to your local [username].github.io, and run "git init".  This is the <strong>ONLY</strong> time you will have to run "git init".</li>
+					</ol>
+				</p>
+			</div>
+		</div>
+<br>
+<br>
+<div class ="img_container">
+			<div class="screenshot_title"><h2>Local Repo</h2><h4>(folders on your computer)</h4>
+			</div>
+			<img class="screenshot" src="images/local_repo2.jpg">
+
+			<div class="screenshot_title"><h2>Remote Repo</h2><h4>(folders on your GitHub account)</h4>
+			</div>
+
+			<img class="screenshot" src="images/rem_repo.jpg">
+			<div class="screenshot_text"><p>Your HTML files should be in the same local folder as how they are placed in your remote repository.</p>
+				<p>You should be able to open a browser and type in the full path to your local html file and your site should appear. For example, in firefox, I can type in C:/Users/drennena/Documents/GitHub/drennen42.github.io/misc/githubexplained.html and this site will appear.<p>
+					<p>To emphasize and test that the paths in my local repo and my remote repo are the same, as long as the html file has been pushed properly to my github account (remote repo) I should be able to remove "C:/Users/drennena/Documents/GitHub/" from the address bar in firefox, leaving me with just "drennen42.github.io/misc/githubexplained.html" in the address bar, and hit Enter.  If I don't get a 404 error, I am now viewing this page remotely.</p>
+
+			</div>
+		</div>
+	</p>
+
+</body>
+</html>
