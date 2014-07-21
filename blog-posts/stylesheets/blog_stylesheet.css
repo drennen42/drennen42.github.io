@@ -5,7 +5,7 @@ html {
 
 #topblank {
 	width: 100%;
-	height: 1%;
+	height: 5%;
 	float: top;
 /*	border-style: solid;
 	border-color: black;
@@ -14,7 +14,7 @@ html {
 }
 
 #leftblank {
-	width: 1%;
+	width: 5%;
 	height: 100%;
 	float: left;
 /*	border-style: solid;
@@ -23,7 +23,7 @@ html {
 }
 
 #rightblank {
-	width: 1%;
+	width: 5%;
 	height: 100%;
 	clear: right;
 	float: right;
@@ -35,8 +35,8 @@ html {
 #header {
 /*	margin-left: 100px;
 	margin-top: 25px; */
-	margin: .5em;
-	width: 75em;
+	margin: 1em;
+	width: 80%;
 	float: left;
 	border-bottom-style: inset;
 	border-bottom-color: silver;
@@ -48,7 +48,7 @@ html {
 
 #title {
 	float: left;
-	width: 65%;
+	width: 55%;
 /*	margin-left: 100px;*/
 	margin-bottom: 10px;
 	padding-left: 20px;
@@ -86,31 +86,30 @@ html {
 
 #sidebar {
 	float: left;
-	padding: 20px;
+	/*padding: 20px;*/
 	/*background-color: #585858;*/
 	border-style: ridge;
 	border-color: silver;
 	border-width: 5px;
-/*	width: 150px;*/
-	margin-top: 40px;
+	margin-top: 1%;
+	margin-left: 1%;
 }
 
 #sidebar a img {
 	text-align: left;
 	margin-bottom: 12px;
 	margin-top: 12px;
-	border-style: ridge;
-	border-width: 1px;
-	border-color: silver;
+	margin-right: 10px;
+	margin-left: 5%;
 }
 
 #blogcontainer {
 	float: left;
-	margin-top: 40px;
-	margin-left: 50px;
+	margin-top: 1%;
+	margin-left: 40px;
 /*	margin-left: 300px;
 *//*	margin-top: 200px; */
-	width: 76%;
+	width: 68%;
 	background-color: #585858;
 	text-align: center;
 	border-style: ridge;
