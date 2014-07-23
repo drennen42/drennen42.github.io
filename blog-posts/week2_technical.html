@@ -1,0 +1,119 @@
+<!Doctype html>
+<html>
+<head>
+	<title>My Blog Template</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template2.css"/>
+</head>
+<body>
+	<div id="topblank" style="width:100%"></div>
+	<div id="leftblank" style="height:1500px"></div>
+	<div id="rightblank" style="height:1500px"></div>
+	<div id="container">
+<!-- Header -->
+	<header>
+		<div id="header"> <!--Top bar container -->
+			<div id="title"><h1>Technical Blog Week 2</h1></div> <!-- Title section of header container-->
+			<div id="navbar"> <!--Nav bar section of top bar container-->
+				<ul> <!-- class="navlist"> items in the navbar -->
+					<li><a href="#"><font color="silver"><h3>Home</h3></font></a></li>
+					<li><a href="mailto:drennen42@gmail.com"><font color="silver"><h3>Email Me</font></h3></a></li>
+					<li><a href="links.html"><font color="silver"><h3>Links</h3></font></a></li>
+				</ul>
+			</div> <!--End of navbar-->
+		</div> <!--End of id header-->
+	</header> <!--End of header container-->
+
+<!--Sidebar-->
+	<div id="sidebar"> <!--Sidebar container-->
+		<!-- <div id="sideitem"> -->
+			<a href="#"><img src="#" alt="Img Text" height="75px" width="75px"></a><br><br>
+			<a href="#"><img src="#" alt="Img Text" height="75px" width="75px"></a><br><br>
+			<a href="#"><img src="#" alt="Img Text" height="65px" width="75px"></a><br><br>
+<!-- 			<li><a href="#">Link 4</a></li> -->
+		</div> <!--End of Sidebar-->
+
+	<!--Blog Posts-->
+	<div id="blogcontainer">
+		<div class="posttitle"><font color="silver"><h2>Margins, Borders, and Paddings</h2></font></div> <!--End of posttitle-->
+			<article class="favsite">
+				<p><strong><font size="14">Margins, Borders, and Padding</font></strong>
+				</p>
+				<br>
+				<p>Today we are going to tell you about margins, borders, and padding and the differences between them.
+				</p>
+				<div id="article_image">
+					<img src="images/MPB.png" alt="Margins Borders & Paddings image">
+				</div>
+				<br>
+				For illustration purposes, we've included the image above that you can refer to.
+				<br>
+				<p>The first thing you'll notice about the image above is the outer layer, which is appropiately labeled "margin."
+				<br>
+				Margins are defined as the area surrounding an element, outside of it's border. Margins separate an element from the surrounding elements by the margin's defined width. 
+				<br> 
+				There a few options you can use to properly set the size of a margin.  Margins are measured in three different sets of units: 
+				<ul>
+					<li>pixels</li> 
+					<li>ems</li>
+					<li>percentages</li>
+				</ul>
+				<br>
+				Each of these are used under different circumstances depending on the goals of the developer. Generally, pixels are used for elements that have fixed sizes while ems and percentages are used to ensure that elements maintain their sizes when screens are resized or when distributing to an audience that may have a variety of screen sizes.
+				<br>
+				Here is an example of how the CSS code looks when setting a margin's properties:
+				<br>
+				<br>
+				.class {<br>
+					margin: 0, 10px, 0, 20px;<br>
+				}<br>
+				<br>
+				.class {<br>
+				    margin: 10px;<br>
+				}<br>
+				<br>
+				.class {<br>
+				  margin-left: 10px;<br>
+				  }<br>
+				  <br>
+				A border is the area between a margin and a padding.  The image shown above may be slightly deceiving.  The image
+				makes it look like a border is approximately the same width as a margin or a padding; however, a border can be as 
+				thin as half of a pixel or even invisible, yet it still exists.  Margins and paddings do not exist unless you 
+				create them.  The reason developers set borders to be visible is generally for aesthetic/visual purposes only. 
+				There are more options available for borders than for margins/paddings such as style, color, width, texture. 
+				Here is the CSS code for a border:
+				<br>
+				<br>
+				.class {<br>
+				    border-style: ridge;<br>
+				    border-width: 10px;<br>
+				    border-color: silver;<br>
+				}<br>
+				<br>
+				<p>Lastly, the layer directly surrounding the element itself is called the padding. The padding in many ways can be thought of like the inverse of the margin. Rather than separating the element from other elements as the margin does, the padding separates the element from it's own border. 
+				Paddings have the exact same units of measurement to choose from as margins - pixels, ems, or percentages and the syntax for setting the width using CSS is the same:
+				<br>
+				<br>
+				.class {<br>
+					padding: 0, 10px, 0, 20;<br>
+				}<br>
+				<br>
+				.class {<br>
+				  padding: 10px;<br>
+				}<br>
+				<br>
+				.class {<br>
+				  padding-left: 10px;<br>
+				  }<br>
+				  <br>
+				</p>
+ 			</article> <!--End Google Article-->
+	</div> <!--End of blogcontainer-->
+</div><!-- End of "container"-->
+
+<!--Footer-->
+<div id="footer">
+	<p>Copyright 2014 Alex Drennen</p>
+</div> <!--End of Footer-->
+
+</body>
+</html>
