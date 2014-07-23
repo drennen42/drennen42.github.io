@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-	<title>My Blog Template</title>
+	<title>Technical Blog</title>
 	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template2.css"/>
 </head>
 <body>
@@ -42,14 +42,14 @@
 				<p>Today we are going to tell you about margins, borders, and padding and the differences between them.
 				</p>
 				<div id="article_image">
-					<img src="images/MPB.png" alt="Margins Borders & Paddings image">
+					<p><img src="images/MPB.png" alt="Margins Borders & Paddings image" style="margin-left:25%"></p>
 				</div>
 				<br>
 				For illustration purposes, we've included the image above that you can refer to.
 				<br>
 				<p>The first thing you'll notice about the image above is the outer layer, which is appropiately labeled "margin."
 				<br>
-				Margins are defined as the area surrounding an element, outside of it's border. Margins separate an element from the surrounding elements by the margin's defined width. 
+				<strong>Margins</strong> are defined as the area surrounding an element, outside of it's border. Margins separate an element from the surrounding elements by the margin's defined width. 
 				<br> 
 				There a few options you can use to properly set the size of a margin.  Margins are measured in three different sets of units: 
 				<ul>
@@ -75,21 +75,18 @@
 				  margin-left: 10px;<br>
 				  }<br>
 				  <br>
-				A border is the area between a margin and a padding.  The image shown above may be slightly deceiving.  The image
-				makes it look like a border is approximately the same width as a margin or a padding; however, a border can be as 
-				thin as half of a pixel or even invisible, yet it still exists.  Margins and paddings do not exist unless you 
-				create them.  The reason developers set borders to be visible is generally for aesthetic/visual purposes only. 
-				There are more options available for borders than for margins/paddings such as style, color, width, texture. 
+				A <strong>border</strong> is the area between a margin and a padding.  The image shown above may be slightly deceiving.  The image makes it look like a border is approximately the same width as a margin or a padding; however, a border can be as thin as half of a pixel or even invisible, yet it still exists.  Margins and paddings do not exist unless you create them.  The reason developers set borders to be visible is generally for aesthetic/visual purposes only. 
+				There are more options available for borders than for margins/paddings such as style, color, width, texture. <br>
 				Here is the CSS code for a border:
 				<br>
 				<br>
 				.class {<br>
-				    border-style: ridge;<br>
-				    border-width: 10px;<br>
-				    border-color: silver;<br>
+				    <p class="tab">border-style: ridge;<br>
+				    	border-width: 10px;<br>
+				    	border-color: silver;<br></p>
 				}<br>
 				<br>
-				<p>Lastly, the layer directly surrounding the element itself is called the padding. The padding in many ways can be thought of like the inverse of the margin. Rather than separating the element from other elements as the margin does, the padding separates the element from it's own border. 
+				<p>Lastly, the layer directly surrounding the element itself is called the <strong>padding</strong>. The padding in many ways can be thought of like the inverse of the margin. Rather than separating the element from other elements as the margin does, the padding separates the element from it's own border. 
 				Paddings have the exact same units of measurement to choose from as margins - pixels, ems, or percentages and the syntax for setting the width using CSS is the same:
 				<br>
 				<br>
@@ -105,6 +102,13 @@
 				  padding-left: 10px;<br>
 				  }<br>
 				  <br>
+					  <p>Here is an image of the Google logo that you see on Google's homepage.
+					  	<br>The section highlighted in green is the padding.
+					  	<br>The section highlighted in blue is the element. I.e. The element is the image of the Google logo
+					  	<br>which might be named something like "google_logo.jpg" in google's repository.
+					  	<br>
+					  <p><img src="images/google_padding.png" alt="Google's Paddings image" style="margin-left:15%"></p>
+					</p>
 				</p>
  			</article> <!--End Google Article-->
 	</div> <!--End of blogcontainer-->
