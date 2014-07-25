@@ -1,0 +1,42 @@
+    header {
+        clear: both;
+        height: 5%;
+        margin: 1%, 3%, 1%, 3%;
+        background-color: blue;
+        border-style: double ridge;
+        border-width: 20px;
+        border-color: black;
+
+    }
+    
+    html {
+        background-image:url(http://www.pacifictailor.com.hk/images/fabrics/800/ShirtStripematerial_800x800_ST01.jpg);
+    }
+        .pics {
+            height: 5%;
+            width: 100%;
+            clear: both;
+            display: inline-block;
+            background-color: cyan;
+        }
+        
+      .pics img {
+            height: 20%;
+            margin-left: 10%;
+            margin-top: 2.5%;
+            display: inline-block;
+    }
+    
+    h2{ font-family: ‘Metrophobic’, Arial, serif; font-weight: 2;
+        margin-top: 5%;
+        border-style: double ridge;
+        border-width: 20px;
+        border-color: black;
+        background-color: cyan;
+        padding: 3%;
+        
+    }
+            
+    
+    footer{background-color: grey;
+}
