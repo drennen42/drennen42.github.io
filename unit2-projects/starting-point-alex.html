@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <title>Responsive Design and Fluid Layouts</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <nav>
+        <ul>
+          <li><a href="index.html" alt="Home">HOME</a></li>
+          <li><a href="#" alt="About">ABOUT</a></li>
+          <li><a href="mailto:drennen42@gmail.com" alt="Email Me">CONTACT</a></li>
+        </ul>
+      </nav>  
+      <h1>Responsive Design and Fluid Layouts</h1>
+      <h3>A discussion of Responsive vs. Fluid Layouts in Web Design</h3>
+      <h4>By: Alex Drennen and Gale Van Rossem</h4>
+    </div>
+
+    <aside>
+      <!-- <h2>Links</h2> -->
+      <ul>
+        <li><a href="#top" alt="">Responsive</a></li>
+        <li><a href="#fluid" alt="">Fluid</a></li>
+        <li><a href="#conclusion" alt="">Our Conclusion</a></li>
+        <li><a href="#reflection" alt="">My Reflections</a></li>
+        <li><a href="#references" alt="">References</a></li>
+      </ul>
+    </aside>
+
+  <div class="container">
+
+    <div class="responsive-design">
+      <a name="responsive"><h3>Responsive Design</h3></a>
+      <p><b>Responsive Web design</b> is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. In other words, the website should have the technology to automatically respond to the user's preferences. This would eliminate the need for a different design and development phase for each new gadget on the market.<sub>1</sub></p>
+      <p>Responsive design is not only a good idea, it is becoming an absolute necessity in modern day web designing.  As more devices that are used to view webpages become available in many different screen sizes, web designers must implement responsive design into their CSS to allow proper viewing of the page across all devices.</p>
+    </div>
+    
+    
+    <a name="fluid"></a>
+    <div class="fluid-layouts">
+      <h3>Fluid Design</h3>
+      
+      <p><b>Fluid Design</b>, also known as Liquid Design differs from fixed designs in that they use percentages to set the dimensions of elements rather than pixels.  This allow the elements to grow and shrink to fit all types of screen sizes.</p>
+      <p>Fluid designs are a good way to <i>start</i> implementing responsive design into CSS, but it most likely will not be enough to cover the large variety of display sizes.<sub>2</sub>  With Fluid designs, the developer has less control over what the user actually sees and may overlook possible layout problems because the layout looks fine on the screen he/she is using.  Images, video and other types of content with set widths may need to be set at multiple widths to accommodate different screen resolutions.  With incredibly large screen resolutions, a lack of content may create excess white space that can diminish aesthetic appeal.<sub>3</sub></p>
+      <p>All containers on the page have their widths defined in percents - meaning that they are completely based on the viewport rather than the initial containing block. A liquid layout will move in and out when you resize your browser window.<sub>4</sub></p>
+    </div>
+    <a name="conclusion"></a>
+    <div class="your-conclusion">
+      <h3>Our Conclusion</h3>
+      <!-- Discuss the purpose of responsive design and fluid layouts and whether
+      you think it's good practice to use them.
+      Add html tags where necessary. -->
+      <p>In conclusion, the purpose of responsive design and fluid layouts is to allow proper viewing of a webpage across many different screen resolutions.</p>
+      <p>It is surely good practice to use responsive and fluid layouts.  Almost every new client these days wants a mobile version of their website. It's practically essential after all: one design for the BlackBerry, another for the iPhone, the iPad, netbook, Kindle - and all screen resolutions must be compatible, too.<sub>5</sub></p>
+    </div>
+
+    <a name="reflection">
+    <div class="reflection">
+      <h3>My Reflections</h3></a>
+      <!-- Add html tags where necessary to make the information make sense. 
+      You don't need to keep these questions visible. -->
+      <ul>
+        <li><em><u><b>How was it to implement these concepts?</b></u></em> - I found that implementing these concepts was easier than I had originally predicted.  I had assumed that in order for these concepts to work, a lot of re-writing the same CSS styling was going to be needed.  It surprised me that it was actually quite the opposite and very little additional CSS was needed for this to work.</li>
+        <li><em><u><b>How do you think smartphones and tablets have changed web design? How do you think new technology will change web design in the future?</b></u></em> - Smartphones and tablets are the main reason why this type of styling is necessary today.  Without the invention of these devices, these concepts would not be required and would not exist. In the future, I predict that new Web Design concepts will be needed to account for new types of screens, specifically, curved screens as well as "infinity" screens that could possibly be round or 3-dimensional.</li> 
+        <li><em><u><b>How do you think visually impaired people use the web? Can they? Should we design and development for them?</b></u></em> - Visually impaired people surely do use the web.  Depending on the severity level of their visual impairment, they might use different techniques to view websites.  If they are completely unable to see, they may use some type of audio that reads the content to them as well as a voice-activated system that types and navigates via their voice commands.  If they are only slightly impaired, they may alter the size of the text and elements in their browser.  This should be taken into consideration while developing web sites.</li> 
+        <li><em><u><b>What ideas and concepts have resonated with you when learning about the web and design? What seems stupid or doesn't make sense?</b></u></em> - The concept that has resonated with me so far while learning about the web and design is the concept of aligning elements and having the elements stay in alignment nomatter what size the browser or screen is at any given time.  I <em>understand</em> the concept, but I don't believe I have fully grasped the technique yet.  Whenever I begin creating a new page, alignment is my first thought and is always in my mind throughout the whole creation.</li> 
+      </ul>
+      <p></p>
+    </div>
+
+  </div>
+    <a name="references"></a>
+    <div class="references">
+      <h3>References</h3>
+      <!-- Add list items or delete what you don't need. -->
+      <ul>
+        <li><sup>1</sup><a href="http://www.smashingmagazine.com/responsive-web-design-guidelines-tutorials/">Responsive Web Design Guidelines-Tutorials</li>
+        <li><sup>2</sup><a href="http://www.sitepoint.com/responsive-web-design-fluid-layouts/">Responsive Web Design: Fluid Layouts</li>
+        <li><sup>3</sup><a href="http://www.quora.com/What-are-the-pros-and-cons-of-fluid-and-fixed-width-website-layouts">What are the pros and cons of fluid and fixed-width website layouts?</li>
+        <li><sup>4</sup><a href="http://www.maxdesign.com.au/articles/liquid/">Liquid layouts the easy way</li>
+        <li><sup>5</sup><a href="http://www.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/">Responsive Web Design: What It Is and How To Use It</li>
+        <li><sup>6</sup><a href="http://css-tricks.com/the-perfect-fluid-width-layout/">The perfect fluid width layout</li>
+        <li><sup>7</sup><a href="http://www.maxdesign.com.au/articles/liquid/liquid-sample1/">Liquid Sample 1</li>
+        <li><sup>8</sup><a href="http://www.maxdesign.com.au/articles/liquid/liquid-sample9/">Liquid Sample 9</li>
+        <li><sup>9</sup><a href="http://designshack.net/articles/css/35-awesome-fluid-and-elastic-layout-examples-templates-and-tutorials/">35 examples of fluid and elastic layout templates and tutorials</li>
+        <li><sup>10</sup><a href="http://clearleft.com/">Cool example of fluid design</li>
+        <li><sup>11</sup><a href="http://www.gnvpartners.com/">Cool example of fluid/adaptive design</li>
+        <li><sup>12</sup><a href="http://ux.stackexchange.com/questions/24406/what-is-the-exact-difference-between-fluid-and-responsive-design">fluid design vs responsive design</li>
+        <li><sup>13</sup><a href="http://www.smashingmagazine.com/2008/05/29/applying-divine-proportion-to-web-design/">golden section/divine proportion</li>
+      </ul>
+     
+    </div>
+    <a name="bottom"></a>
+  </body>
+  </html>
