@@ -1,0 +1,31 @@
+html {
+	background-color: #2E2E2E;
+	color:	 white;
+}
+
+header {
+	float:	left;
+	width: 75%;
+	margin: auto 15% 5% 15%;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+a {
+	font-size: 22px;
+	margin: 0 0 0 5%;
+}
+
+a BLOCKQUOTE {
+	margin: 0 0 0 15%;
+	clear: right;
+	width: 50%;
+}
+
+a BLOCKQUOTE BLOCKQUOTE {
+	margin: 0 0 5% 15%;
+}
+
+img {
+	margin-left: 3%;
+}
