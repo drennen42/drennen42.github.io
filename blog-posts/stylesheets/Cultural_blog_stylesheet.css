@@ -1,6 +1,6 @@
 html {
 	background-image:url(http://www.haivk.com/images/background2.jpg);
-/*	background-repeat: no-repeat;*/
+	background-attachment:fixed;
 }
 
 #topblank {
