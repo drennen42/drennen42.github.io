@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+<head>
+	<title>My Technical Blog</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template2.css"/>
+</head>
+<body>
+	<div id="topblank" style="width:100%"></div>
+	<div id="leftblank" style="height:1500px"></div>
+	<div id="rightblank" style="height:1500px"></div>
+	<div id="container">
+<!-- Header -->
+	<header>
+		<div id="header"> <!--Top bar container -->
+			<div id="title"><h1>My Technical Blog</h1></div> <!-- Title section of header container-->
+			<div id="navbar"> <!--Nav bar section of top bar container-->
+				<ul> <!-- class="navlist"> items in the navbar -->
+					<li><a href="http://drennen42.github.io"><font color="silver"><h3>Home</h3></font></a></li>
+					<li><a href="mailto:drennen42@gmail.com"><font color="silver"><h3>Email Me</font></h3></a></li>
+					<!--<li><a href="links.html"><font color="silver"><h3>Links</h3></font></a></li>-->
+				</ul>
+			</div> <!--End of navbar-->
+		</div> <!--End of id header-->
+	</header> <!--End of header container-->
+
+<!--Sidebar-->
+	<div id="sidebar"> <!--Sidebar container-->
+		<!-- <div id="sideitem"> -->
+			<a href="#"><img src="#" alt="Img Text" height="75px" width="75px"></a><br><br>
+			<a href="#"><img src="#" alt="Img Text" height="75px" width="75px"></a><br><br>
+			<a href="#"><img src="#" alt="Img Text" height="65px" width="75px"></a><br><br>
+<!-- 			<li><a href="#">Link 4</a></li> -->
+		</div> <!--End of Sidebar-->
+
+	<!--Blog Posts-->
+	<div id="blogcontainer">
+		<div class="posttitle"><font color="silver"><h2>Ruby Methods</h2></font></div> <!--End of posttitle-->
+			<article class="favsite">
+				<p><strong><font size="14">Array#include?</font></strong><br>
+					is a public Ruby method that searches through all elements of an array for a given object, provided as a parameter by the object that called it, and returns the boolean 'true' or 'false' if that object is found in the array.
+				</p>
+					<p>The method 'Array#include?' is a must-know for all Ruby developers.  In fact, any method that searches for a given element in an array is a necessity for all programmers, regardless of the language they develop in.
+					</p>
+					<p>In the vast majority of developer positions include large quantities of data that must be searched through.  Many times the data is company data or client data that may include things such as first names, last names, addresses, phone numbers, etc etc.  This data can be stored in an array or, more likely, many many arrays and possibly many arrays OF arrays.  Without having a method that is capable of quickly scanning through all of that data, it would be nearly impossible to effectively and efficiently find and use any specific information.
+					</p>
+					<p><b>Syntax:</b> array_name.include?(element_you_need_to_find)
+					</p>
+					<p>For example, if you have an array called <em>'clients'<em> and it currently holds: 
+						<br>["Alex Drennen", "Fictional Person", "Michael Jordan", "Donald Trump"]
+						<br>
+						<br>You can use this method to find out if I am a client with:
+						<br>clients.include?("Alex Drennen")
+						<br>
+						<br>This will return 'true'.
+					</p>
+					<p>What may be even more important is that you can use this method within a loop and have all elements that are found in the array returned to be used or printed out. For example:
+						<br>
+						<br>>>clients = ["Alex Drennen", "Fictional Person", "Michael Jordan", "Donald Trump"]
+						<br>>>list_of_names = ["Bob McGee", "Alex Drennen", "Person Three", "George Fakerson", "Michael Jordan", "Chevy Chase"]
+						<br>>>	list_of_names.eah do |x|
+						<br>>>		if clients.include? (x)
+						<br>>>			puts x
+						<br>>>		end
+						<br>>>	end
+						<br>
+						<br>This will print to the console all names that are in both the clients array and the list_of_names array. Which in this case would be:
+						<br>"Alex Drennen"
+						<br>"Michael Jordan"
+					</p>
+
+			</article> <!--End Google Article-->
+
+	</div> <!--End of blogcontainer-->
+</div><!-- End of "container"-->
+
+<!--Footer-->
+<div id="footer">
+	<p>Copyright 2014 Alex Drennen</p>
+</div> <!--End of Footer-->
+
+</body>
+</html>
