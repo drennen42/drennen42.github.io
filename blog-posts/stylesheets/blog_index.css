@@ -24,7 +24,9 @@ body {
 	background-color: #606060;
 	float: left;
 	text-decoration: none;
+	list-style: none;
 	margin: 0 0 2% 0;
+	padding: 0;
 	width: 100%;
 	clear: both;
 	border-style: solid;
@@ -39,12 +41,16 @@ body {
 	margin: 1% 0 1% 2.5%;
 	border-radius: 5px;
 	font-weight: bold;
+	text-decoration: none;
+	padding: 0;
+	list-style: none;
 }
 
 #nav ul li a {
 	color: white;
 	text-decoration: none;
 	font-size: 100%;
+	list-style: none;
 }
 
 
@@ -68,6 +74,10 @@ aside {
 aside ul {
 	height: 90%;
 	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
 	display: inline-block;
 	text-align: center;
 }
@@ -95,29 +105,39 @@ aside ul li a {
 
 
 section {
+	color: white;
 	float: left;
 	width: 75%;
-	margin: 2% auto 2% 10%;
-	text-align: center;
-	font-size: 30px;
-	border-style: double ridge;
+	margin: 2% auto 2% 15%;
+	text-align: left;
+	/*font-size: 30px;*/
+	border-style: 5px solid black;
 	border-radius: 10px;
+	/*border-width: 5px;*/
 }
 
 section h1 {
 	color: #606060;
-	margin-left: 15%;
+	margin-left: 10%;
 	text-align: left;
+	font-size: 30px;
 	text-decoration: underline;
 }
 
 
 article {
+	background-color: #606060;
 	width: 80%;
-	margin: 2% auto 2% 10%;
-	padding: 5px 0 5px 0;
+	margin: 2% auto 2% 5%;
+	padding: 5%;
 	float: left;
+	font-family: Arial;
+	/*font-size: 14px;*/
 }
+
+/*article p{
+
+}*/
 
 table {
 	height: 100%;
@@ -148,10 +168,10 @@ article header {
 }
 
 
-article ul li {
+/*article ul li {
 	margin: 1.5% 1.5% 2% 1.5%;
 	float: left;
-}
+}*/
 
 figcaption {
 	text-decoration: none;
