@@ -61,6 +61,10 @@ body {
 	color: teal;
 }
 
+a {
+	color: white;
+}
+
 a:hover {
 	color: teal;
 }
