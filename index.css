@@ -47,9 +47,12 @@ body {
 	font-size: 100%;
 }
 
+#nav ul li a:hover {
+	color: teal;
+}
 
 a:hover {
-	color: red;
+	color: teal;
 }
 
 aside {

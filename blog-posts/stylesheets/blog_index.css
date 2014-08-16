@@ -34,11 +34,15 @@ body {
 	border-bottom: 3px solid black;
 }
 
+#nav ul {
+	padding: 0;
+	margin: 1% 0 1% 0;
+}
 
 #nav ul li {
 	float: left;
 	display: inline-block;
-	margin: 1% 0 1% 2.5%;
+	margin: 0 0 1% 2.5%;
 	border-radius: 5px;
 	font-weight: bold;
 	text-decoration: none;
@@ -53,9 +57,12 @@ body {
 	list-style: none;
 }
 
+#nav ul li a:hover {
+	color: teal;
+}
 
 a:hover {
-	color: red;
+	color: teal;
 }
 
 aside {
@@ -135,9 +142,15 @@ article {
 	/*font-size: 14px;*/
 }
 
-/*article p{
+article title {
+	color: white;
+	font-size: 26px;
+}
 
-}*/
+article p strong{
+	text-decoration: underline;
+	text-decoration: bold;
+}
 
 table {
 	height: 100%;
@@ -168,13 +181,30 @@ article header {
 }
 
 
-/*article ul li {
-	margin: 1.5% 1.5% 2% 1.5%;
-	float: left;
-}*/
-
 figcaption {
 	text-decoration: none;
 	color: white;
 	margin-bottom: 2%;
+}
+
+sup {
+	color: white;
+}
+
+.references ul li a {
+	/*text-decoration: none;*/
+	color: white;
+}
+
+.references ul li a:hover{
+	color: teal;
+}
+
+.linkslist ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.linkslist ul li a:hover {
+	color: teal;
 }
