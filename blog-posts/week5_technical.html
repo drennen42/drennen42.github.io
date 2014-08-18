@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drennen42 Tech Blog</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_reset.css"/>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_index.css"/>
+</head>
+<body>
+	<div id="header">
+		<h1>DRENNEN42</h1>
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li><a href="https://drennen42.github.io">Home</a></li>
+			<li><a href="https://drennen42.github.io/blog-posts/TechBlogIndex.html">Tech Blog</a></li>
+			<li><a href="https://drennen42.github.io/blog-posts/CultBlogIndex.html">Cultural Blog</a></li>
+			<li><a href="https://github.com/drennen42">My GitHub</a></li>
+			<li><a href="https://drennen42.github.io/Pages/links.html">Links</a></li>
+			<li><a href="mailto:drennen42@gmail.com">Email Me</a></li>
+		</ul>
+	</div>
+
+	<aside>
+		<ul>
+			<li><a href="#articleAnchor">Ruby Classes</li></a>
+		</ul>
+	</aside>
+		<section>
+			<h1>Tech Blog</h1>
+			<article><a name="articleAnchor"></a>
+				<p style="font-size:36px;text-align:center"><strong>Ruby Classes</strong></p>
+
+				<p>In all programming languages, classes help developers from having to type repetitive code.  Creating a class allows a developer to create an object of that class that automatically inherits all characteristics of that class.  When a new instance of a class is created, all inherited variabled and methos that come along with that object are called 'instance variables' and 'instance methods'.  Changes made to the instance variables and methods only effect themselves and not the class that they were formed from.</p>
+
+				<p>One classic basic examples that is used when learning to create classes, instance variables, and instance methods of that class is the vehicle class example.</p>
+
+				<p>In the vehicle class example, you create a class called 'vehicle' that has variables such as 'num_wheels', 'num_doors', 'color', 'max_speed', and any other broad characteristics of a vehicle.  Along with these variables, there are methods such as 'beep', 'go', and 'stop'.</p>
+
+				<p>It is necessary to initialize the variables within the class so that new objects of the class can use them.
+
+				<p>Once the class is created, you can create as many instances of the class as you'd like, each instance of the class will contain all the previously initialized variables and methods of the vehicle class.  For example, if I had Ford Mustang and a Toyota Camry, I would create two instances of the vehicle class like so: <br>
+					<ul>
+						<li>ford_mustang = Vehicle.new(4,4,silver,190)</li>
+						<li>toyota_camry = Vehicle.new(4,4,black,150)</li>
+					</ul></p>
+
+				<p>We now have two vehicle objects, both with 4 wheels and 4 doors, the Mustang is silver and has a max speed of 190 while the Camry is black with a max speed of 150.</p>
+
+				<p>Both of these vehicles can beep, go, and stop.</p>
+
+				<p>Here is a diagram of the vehicle class's initialize method:</p>
+
+				<table style="width:32.5%">
+					<tr>
+						<th style="text-align:center">Vehicle</th>
+					</tr>
+					<tr>
+						<td>@num_wheels = num_wheels</td>
+					</tr>
+					<tr>
+						<td>@num_doors = num_doors</td>
+					</tr>
+					<tr>
+						<td>@color = color</td>
+					</tr>
+					<tr>
+						<td>@speed = speed</td>
+					</tr>
+					<tr>
+						<td>beep()</td>
+					</tr>
+					<tr>
+						<td>go()</td>
+					</tr>
+					<tr>
+						<td>stop()</td>
+					</tr>
+				</table>
+
+			</article>
+		</section>
+	</body>
+</html>
