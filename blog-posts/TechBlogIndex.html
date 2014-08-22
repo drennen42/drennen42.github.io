@@ -23,11 +23,12 @@
 
 	<aside>
 		<ul>
-			<li><a href="#FavSites">Fav Sites</li></a>
-			<li><a href="#CSS">CSS</li></a>
-			<li><a href="#JavaScript">JavaScript</li></a>
-			<li><a href="#RubyMethods">Ruby Methods</li></a>
-			<li><a href="#RubyClasses">Ruby Classes</li></a>
+			<li><a href="#FavSites">Fav Sites</a></li>
+			<li><a href="#CSS">CSS</a></li>
+			<li><a href="#JavaScript">JavaScript</a></li>
+			<li><a href="#RubyMethods">Ruby Methods</a></li>
+			<li><a href="#RubyClasses">Ruby Classes</a></li>
+			<li><a href="#OOvsFunctional">OO vs Functional</a></li>
 		</ul>
 	</aside>
 		<section>
@@ -289,7 +290,7 @@
 				</p>
 					<p>The method 'Array#include?' is a must-know for all Ruby developers.  In fact, any method that searches for a given element in an array is a necessity for all programmers, regardless of the language they develop in.
 					</p>
-					<p>In the vast majority of developer positions include large quantities of data that must be searched through.  Many times the data is company data or client data that may include things such as first names, last names, addresses, phone numbers, etc etc.  This data can be stored in an array or, more likely, many many arrays and possibly many arrays OF arrays.  Without having a method that is capable of quickly scanning through all of that data, it would be nearly impossible to effectively and efficiently find and use any specific information.
+					<p>The vast majority of developer positions include large quantities of data that must be searched through.  Many times the data is company data or client data that may include things such as first names, last names, addresses, phone numbers, etc etc.  This data can be stored in an array or, more likely, many many arrays and possibly many arrays OF arrays.  Without having a method that is capable of quickly scanning through all of that data, it would be nearly impossible to effectively and efficiently find and use any specific information.
 					</p>
 					<p><b>Syntax:</b> array_name.include?(element_you_need_to_find)
 					</p>
@@ -366,6 +367,52 @@
 					</tr>
 				</table>
 			</article>
+
+			<article><a name="OOvsFunctional"></a>
+				<p style="font-size:36px;text-align:center"><strong>OO vs. Functional Programming</strong></p>
+
+				<p>When I first started to learn to code, everything I was taught was functional style programming.  I started with the basic Pascal language and then dove into simple windows batch file scripting.
+				</p>
+
+				<p>The premise of functional programming is that everything is coded "in-line".  You can read the code from top to bottom and that is exactly how the program runs.  Basically it follows the format of:<br>
+					<ul>
+						<li>Do step one</li>
+						<li>Then do step two</li>
+						<li>Then do step three</li>
+					</ul><br>
+					So on and so forth.
+				</p>
+
+				<p>This is a good way to code when you expect that your program will have just one "thing" that does or has many "functions".  This style of developing allows the developer to add new functions to the "thing" easily and at any time.
+				</p>
+
+				<p>However, the downfall of this type of developing is that you cannot easily add new "things" to the program.
+				</p>
+
+				<p>Let's take the recent solo challenge that we had in week 6 for example.  The challenge was to create a program that would create playlists of songs and also have the functionality of printing out which song was currently playing as well as allowing the user to "play-all songs on the playlist".
+				</p>
+
+				<p>If this were coded in the functional programmin style, we would only be allowed to create one playlist and give that playlist the functions of printing the current song and playing all songs.  But if we wanted to create another playlist later on, we would have to re-create the whole program over again! (Or, most likely copy and paste the whole source code into a new source code, but whatever!  Still not very friendly!)  In this example, I am not even going to mention the difficulty of creating new songs and adding them to the playlist!
+				</p>
+
+				<p>In comparison, Object Oriented programming (OOP) does not follow the same syntax of running code from top to bottom.  In OOP, objects are created that each have their own functionality in the form of methods.  All objects of the same type, when created, are initialized automatically with the same functions.
+				</p>
+
+				<p>OOP is good for developing programs that have many "things" (a.k.a. objects) and a set number of "functions" (a.k.a. methods) that each of the objects can have.  OOP allows the developer to add new "things" easily and at any time, but it is much harder to add additional "functions" later on.
+				</p>
+
+				<p>In the playlist example, using OOP is the prefered choice.  With OOP we can create as many playlist objects as we like.  Each playlist object will have their own methods to print out which song is currently playing and to play all songs on the list (or, this could be said "play all songs on itself" since it IS the list!)
+				</p>
+
+				<p>Because I used this particular challenge as an example, it may seem that OOP is just way better than functional programming all around.  But there are times when functional programming trumps OOP.  Say you were assigned to write a program for a remote-controlled car.  You are only going to be writing the program for that car, you will not be adding another car to that car, right?  But, on the other hand, you may start the program giving the car the functions go, stop, turn right, and turn left.  What if later on you want to give that car the ability to go backwards or to do a backflip?  With functional programming, you can just tack on the new functions to the existing code and you're done! With OOP, you've have to add the new functions (methods) to each object, which in this case is only the one car, but OOP isn't setup to only create one car.  It's setup to create many car objects!
+				</p>
+
+				<p>It's hard to tell which style I like best or which one I find easier than the other.  But I will say that since I started with functional programming, many times my brain gets 'stuck' in it's old ways and gravitates towards functional programming even when I'm trying to use OOP.  So, if you're just starting out, my suggestion is to not code in one way or the other for too long without switching it up every once in a while.  This will help you get a well-rounded knowledge and experience in both styles.
+				</p>
+
+			</article>
+
+
 		</section>
 	</body>
 </html>
