@@ -29,6 +29,7 @@
 			<li><a href="#RubyMethods">Ruby Methods</a></li>
 			<li><a href="#RubyClasses">Ruby Classes</a></li>
 			<li><a href="#OOvsFunctional">OO vs Functional</a></li>
+			<li><a href="#SQLInjections">SQL Injections</a></li>
 		</ul>
 	</aside>
 		<section>
@@ -412,6 +413,23 @@
 
 			</article>
 
+			<article><a name="SQLInjections"></a>
+				<p style="font-size:36px;text-align:center"><strong>SQL Injections</strong></p>
+
+				<p>Why would anyone want to do a SQL injection? A SQL injection is something that a hacker does to get access to all of the data stored in a website's backend database.  The data can be user id's, passwords, banking information, account #s, just about anything.  Much of the data the hacker is seeking is personal information and can be very harmful.
+
+				<p>How are SQL injections performed?  Say you're about to login to a website like Facebook and you're looking at the login fields 'user name' and 'password'.  The site probably has a database of all of its users' user names and passwords that is cross checks the users input for validation.  The website's [pseudo]code may be soemthing like:<br>
+					<br>
+					>Grab username from user_name text field<br>
+					>SELECT account FROM tbl_accounts WHERE user_name=username<br>
+					<br>
+					So what if in the user name text field you entered in 'NOT NULL'? Then the site's code would pull all accounts from tbl_accounts where the user_name is not null!!
+				</p>
+
+				<p>How to prevent SQL attacks?  FIrewalls and other intrusion detection mechanisms provide little defense against full-scale web attacks. The best way to prevent SQL injection attacks is to use prepared statements, using stored procedures, and escaping all user supplied input.  There are many resources online where you can find examples of how to use prepared statements and other suggestions on how to prevent SQL injections.
+				</p>
+
+			</article>
 
 		</section>
 	</body>
