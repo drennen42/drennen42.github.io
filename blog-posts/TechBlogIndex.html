@@ -30,6 +30,7 @@
 			<li><a href="#RubyClasses">Ruby Classes</a></li>
 			<li><a href="#OOvsFunctional">OO vs Functional</a></li>
 			<li><a href="#SQLInjections">SQL Injections</a></li>
+			<li><a href="#Recursion">Recursion</a></li>
 		</ul>
 	</aside>
 		<section>
@@ -38,13 +39,13 @@
 				<p style="font-size:36px;text-align:center"><strong>Favorite Sites</strong></p>
 				<p><strong><font size="14"><u><a href="www.facebook.com">Facebook</a></u></font></strong></p>
 					<p>I probably use facebook the most out of any other site right now.  It is a great way to stay connected with friends and family.  Facebook also hosts a huge amount of great apps.  Most of the apps that I use on facebook are games, but there are also many productive apps too. </p>
-					
+
 
 				<p><strong>Area my eye is drawn to:</strong>  The news feed.</p>
-				
+
 
 				<p><strong>Area my eye is drawn to when I move back away from the screen:</strong>  <em>The sponsored ads</em>.  No, this is not the most important area of the page to me.  It probably is the most important area for the company sponsoring the ad and for investors in Facebook though.</p>
-				
+
 
 				<p><strong>My description of the homepage:</strong>
 					<ul>
@@ -63,14 +64,14 @@
 						<li>Having too much personal space</li>
 						<li>Too much privacy</li>
 					</ul></p>
-					
+
 				<p><strong>Content:</strong><br>
 				Everything that anyone in the world wants to share with everyone else in the world via pictures, posts, stories, comments, hashtags, etc etc.</p>
-				
+
 
 				<p><strong>Content description:</strong><br>
 				Facebook can really contain any kind of content.  Most of it is fun, silly stuff, but some people post some pretty serious stuff.</p>
-				
+
 
 				<p>It's very easy to find what I am looking for on Facebook.  You can use the search bar or the navigation links to get to pretty much anywhere you want right from the homepage.  The search bar and the links are available from any page you are on within facebook.</p>
 
@@ -104,7 +105,7 @@
 						<li>Curiosity</li>
 					</ul>
 				</p>
-			
+
 
 				<p><strong>Content:</strong><br>
 				Awesomeness in the form of pictures, charities, and comments.<br>
@@ -128,7 +129,7 @@
 				<br>
 
 				<p><strong><font size="14"><a href="www.google.com">Google</a></font></strong> <font size="4">(and all google apps such as drive, calendar, maps, etc etc)</font></p>
-					
+
 				<p>Google is one of my favorite websites simply because google basically runs my life at this point.  I use google calendars, google maps, google drive, google docs, google+, gmail, gchat, regular ol' google web search, google music, google play, google photos, google translate, google wallet, YouTube, and so on and so on.  Basically I can trace any single thing that I do back to Google in one way or another.  Google has made it extremely simple to use everything they offer.</p>
 
 				<p><strong>Area my eye is drawn to:</strong><br> Google's homepage is very very VERY simple.  There is basically nothing on it except for the Google logo and a search bar.  Can't beat the simplicity of it!</p>
@@ -189,11 +190,11 @@
 				<br>
 				<p>The first thing you'll notice about the image above is the outer layer, which is appropiately labeled "margin."
 				<br>
-				<strong>Margins</strong> are defined as the area surrounding an element, outside of it's border. Margins separate an element from the surrounding elements by the margin's defined width. 
-				<br> 
-				There a few options you can use to properly set the size of a margin.  Margins are measured in three different sets of units: 
+				<strong>Margins</strong> are defined as the area surrounding an element, outside of it's border. Margins separate an element from the surrounding elements by the margin's defined width.
+				<br>
+				There a few options you can use to properly set the size of a margin.  Margins are measured in three different sets of units:
 				<ul>
-					<li>pixels</li> 
+					<li>pixels</li>
 					<li>ems</li>
 					<li>percentages</li>
 				</ul>
@@ -218,7 +219,7 @@
 				  <br>
 				  <p><strong><font size="14">Borders</font></strong></p>
 				  <br>
-				A <strong>border</strong> is the area between a margin and a padding.  The image shown above may be slightly deceiving.  The image makes it look like a border is approximately the same width as a margin or a padding; however, a border can be as thin as half of a pixel or even invisible, yet it still exists.  Margins and paddings do not exist unless you create them.  The reason developers set borders to be visible is generally for aesthetic/visual purposes only. 
+				A <strong>border</strong> is the area between a margin and a padding.  The image shown above may be slightly deceiving.  The image makes it look like a border is approximately the same width as a margin or a padding; however, a border can be as thin as half of a pixel or even invisible, yet it still exists.  Margins and paddings do not exist unless you create them.  The reason developers set borders to be visible is generally for aesthetic/visual purposes only.
 				There are more options available for borders than for margins/paddings such as style, color, width, texture. <br>
 				Here is the CSS code for a border:
 				<br>
@@ -232,7 +233,7 @@
 				<br>
 				<p><strong><font size="14">Padding</font></strong></p>
 				<br>
-				<p>Lastly, the layer directly surrounding the element itself is called the <strong>padding</strong>. The padding in many ways can be thought of like the inverse of the margin. Rather than separating the element from other elements as the margin does, the padding separates the element from it's own border. 
+				<p>Lastly, the layer directly surrounding the element itself is called the <strong>padding</strong>. The padding in many ways can be thought of like the inverse of the margin. Rather than separating the element from other elements as the margin does, the padding separates the element from it's own border.
 				Paddings have the exact same units of measurement to choose from as margins - pixels, ems, or percentages and the syntax for setting the width using CSS is the same:
 				<br>
 				<br>
@@ -295,7 +296,7 @@
 					</p>
 					<p><b>Syntax:</b> array_name.include?(element_you_need_to_find)
 					</p>
-					<p>For example, if you have an array called <em>'clients'</em> and it currently holds: 
+					<p>For example, if you have an array called <em>'clients'</em> and it currently holds:
 						<br>["Alex Drennen", "Fictional Person", "Michael Jordan", "Donald Trump"]
 						<br>
 						<br>You can use this method to find out if I am a client with:
@@ -428,6 +429,96 @@
 
 				<p>How to prevent SQL attacks?  FIrewalls and other intrusion detection mechanisms provide little defense against full-scale web attacks. The best way to prevent SQL injection attacks is to use prepared statements, using stored procedures, and escaping all user supplied input.  There are many resources online where you can find examples of how to use prepared statements and other suggestions on how to prevent SQL injections.
 				</p>
+
+			</article>
+
+
+			<article><a name="Recursion"></a>
+				<p style="font-size:36px;text-align:center"><strong>Recursion</strong></p>
+
+				<p>
+          The simplest way to define recursion in development is that when a function or method calls itself.  The most popular and simplest form of recursion are loops.
+        </p>
+
+        <p>
+          Take, for example, a ruby while loop.  The while loop is written like this:<br>
+          <br><br>
+          while (condition == true)<br>
+               [block of code to run]<br>
+          end<br>
+          <br>
+          <br>
+          In order to explain this better, I think a real example should be used: <br>
+          <br><br>
+          <code>
+          i = 0<br>
+          while (i<10)<br>
+              puts i<br>
+              i += 1<br>
+          end<br>
+        </code>
+        </p>
+
+        <p>
+          What this code is doing is recursion, or calling itself over and over again.  First it checks if the variable 'i' is less than 10.  If that is true, then it runs the block of code.  The block of code will print out the current value of 'i', then increment the value of 'i' by 1 and start over again.
+        </p>
+
+        <p>
+          Let's go through the while loop step by step.  Before the loop begins, the value of 'i' is initially set to 0:
+          <ol>
+            <li>is 0 less than 10? - true! Run code block.</li>
+            <li>puts 0</li>
+            <li>0 + 1 = 1 (now i = 1)</li>
+            <li>is 1 less than 10? - true! Run code block.</li>
+            <li>puts 1</li>
+            <li>1 + 1 = 2 (now i = 2)</li>
+            <li>is 2 less than 10? - true! Run code block.</li>
+            <li>puts 2</li>
+            <li>2 + 1 = 3 (now i = 3)</li>
+            <li>is 3 less than 10? - true! Run code block.</li>
+            <li>puts 3</li>
+            <li>3 + 1 = 4 (now i = 4)</li>
+            <li>is 4 less than 10? - true! Run code block.</li>
+            <li>puts 4</li>
+            <li>4 + 1 = 5 (now i = 5)</li>
+            <li>is 5 less than 10? - true! Run code block.</li>
+            <li>puts 5</li>
+            <li>5 + 1 = 6 (now i = 6)</li>
+            <li>is 6 less than 10? - true! Run code block.</li>
+            <li>puts 6</li>
+            <li>6 + 1 = 7 (now i = 7)</li>
+            <li>is 7 less than 10? - true! Run code block.</li>
+            <li>puts 7</li>
+            <li>7 + 1 = 8 (now i = 8)</li>
+            <li>is 8 less than 10? - true! Run code block.</li>
+            <li>puts 8</li>
+            <li>8 + 1 = 9 (now i = 9)</li>
+            <li>is 9 less than 10? - true! Run code block.</li>
+            <li>puts 9</li>
+            <li>9 + 1 = 10 (now i = 10)</li>
+            <li>is 10 less than 10? - FALSE!</li>
+            <li>END while loop</li>
+          </ol>
+
+          <br>
+          The output of this code would look like this:<br>
+          <ul>
+            <li>0</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+          </ul>
+          </p>
+
+          <p>
+            Recursion is a very important part of programming.  It is a MUST-KNOW for all programmers and is one of the very first things all programmers learn.
+          </p>
 
 			</article>
 

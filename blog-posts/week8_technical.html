@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drennen42 Tech Blog</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog_reset.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog_index.css"/>
+</head>
+<body>
+  <div id="header">
+    <h1>DRENNEN42</h1>
+  </div>
+
+  <div id="nav">
+    <ul>
+      <li><a href="https://drennen42.github.io">Home</a></li>
+      <li><a href="https://drennen42.github.io/blog-posts/TechBlogIndex.html">Tech Blog</a></li>
+      <li><a href="https://drennen42.github.io/blog-posts/CultBlogIndex.html">Cultural Blog</a></li>
+      <li><a href="https://github.com/drennen42">My GitHub</a></li>
+      <li><a href="https://drennen42.github.io/Pages/links.html">Links</a></li>
+      <li><a href="mailto:drennen42@gmail.com">Email Me</a></li>
+    </ul>
+  </div>
+
+  <aside>
+    <ul>
+      <li><a href="#articleAnchor">Recursion</li></a>
+    </ul>
+  </aside>
+    <section>
+      <h1>Tech Blog</h1>
+      <article><a name="articleAnchor"></a>
+        <p style="font-size:36px;text-align:center"><strong>Recursion</strong></p>
+
+        <p>
+          The simplest way to define recursion in development is that when a function or method calls itself.  The most popular and simplest form of recursion are loops.
+        </p>
+
+        <p>
+          Take, for example, a ruby while loop.  The while loop is written like this:<br>
+          <br><br>
+          while (condition == true)<br>
+               [block of code to run]<br>
+          end<br>
+          <br>
+          <br>
+          In order to explain this better, I think a real example should be used: <br>
+          <br><br>
+          <code>
+          i = 0<br>
+          while (i<10)<br>
+              puts i<br>
+              i += 1<br>
+          end<br>
+        </code>
+        </p>
+
+        <p>
+          What this code is doing is recursion, or calling itself over and over again.  First it checks if the variable 'i' is less than 10.  If that is true, then it runs the block of code.  The block of code will print out the current value of 'i', then increment the value of 'i' by 1 and start over again.
+        </p>
+
+        <p>
+          Let's go through the while loop step by step.  Before the loop begins, the value of 'i' is initially set to 0:
+          <ol>
+            <li>is 0 less than 10? - true! Run code block.</li>
+            <li>puts 0</li>
+            <li>0 + 1 = 1 (now i = 1)</li>
+            <li>is 1 less than 10? - true! Run code block.</li>
+            <li>puts 1</li>
+            <li>1 + 1 = 2 (now i = 2)</li>
+            <li>is 2 less than 10? - true! Run code block.</li>
+            <li>puts 2</li>
+            <li>2 + 1 = 3 (now i = 3)</li>
+            <li>is 3 less than 10? - true! Run code block.</li>
+            <li>puts 3</li>
+            <li>3 + 1 = 4 (now i = 4)</li>
+            <li>is 4 less than 10? - true! Run code block.</li>
+            <li>puts 4</li>
+            <li>4 + 1 = 5 (now i = 5)</li>
+            <li>is 5 less than 10? - true! Run code block.</li>
+            <li>puts 5</li>
+            <li>5 + 1 = 6 (now i = 6)</li>
+            <li>is 6 less than 10? - true! Run code block.</li>
+            <li>puts 6</li>
+            <li>6 + 1 = 7 (now i = 7)</li>
+            <li>is 7 less than 10? - true! Run code block.</li>
+            <li>puts 7</li>
+            <li>7 + 1 = 8 (now i = 8)</li>
+            <li>is 8 less than 10? - true! Run code block.</li>
+            <li>puts 8</li>
+            <li>8 + 1 = 9 (now i = 9)</li>
+            <li>is 9 less than 10? - true! Run code block.</li>
+            <li>puts 9</li>
+            <li>9 + 1 = 10 (now i = 10)</li>
+            <li>is 10 less than 10? - FALSE!</li>
+            <li>END while loop</li>
+          </ol>
+
+          <br>
+          The output of this code would look like this:<br>
+          <ul>
+            <li>0</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+          </ul>
+          </p>
+
+          <p>
+            Recursion is a very important part of programming.  It is a MUST-KNOW for all programmers and is one of the very first things all programmers learn.
+          </p>
+
+      </article>
+    </section>
+  </body>
+</html>
