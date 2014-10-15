@@ -1,0 +1,176 @@
+body {
+	background-color: #F8F8F8;
+	height: 100%;
+}
+
+#header {
+	float: left;
+	background-color: #606060;
+	height: 10%;
+	width: 100%;
+	margin: 0;
+	clear: both;
+}
+
+#header h1 {
+	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+	text-decoration: underline;
+	color: white;
+	margin: 1% 0 1% 2%;
+	text-shadow: 5px 5px 5px gray;
+	font-size: 42px;
+	}
+
+#nav {
+	background-color: #606060;
+	float: left;
+	text-decoration: none;
+	margin: 0 0 2% 0;
+	width: 100%;
+	clear: both;
+	border-style: solid;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+
+#nav ul li {
+	float: left;
+	display: inline-block;
+	margin: 1% 0 1% 2.5%;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+#nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+#nav ul li a:hover {
+	color: teal;
+}
+
+a:hover {
+	color: teal;
+}
+
+aside {
+  position: fixed;
+  width: 10%;
+  top: 25%;
+	background-color: #606060;
+	border-style: double ridge;
+	border-color: black;
+	border-width: 5px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+aside ul {
+	height: 90%;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+
+aside ul li {
+	width: 75%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	margin: 5%;
+	padding: 5%;
+	border-radius: 0;
+	color: black;
+	font-weight: bold;
+}
+
+aside ul li a {
+	/* This just formats the text of the links */
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+section {
+	float: left;
+	width: 75%;
+	margin: 2% auto 2% 10%;
+	text-align: center;
+	font-size: 30px;
+	border-style: double ridge;
+	border-radius: 10px;
+}
+
+section h1 {
+	color: #606060;
+	margin-left: 15%;
+	text-align: left;
+	text-decoration: underline;
+}
+
+
+article {
+	width: 80%;
+	margin: 2% auto 2% 10%;
+	padding: 5px 0 5px 0;
+	float: left;
+}
+
+table {
+	height: 100%;
+	width: 90%;
+	margin: 0 5% 0 5%;
+	border: 5px solid #606060;
+}
+
+th,td{
+	border: 5px solid black;
+	margin: 2%;
+	background-color: #606060;
+	color: white;
+}
+
+td a img {
+	width: 80%;
+	height: 80%;
+	margin: 5% 2.5% 5% 2.5%;
+	border: 2px solid white;
+}
+
+article header {
+	width: 100%;
+	float: left;
+	color: #606060;
+	text-align: left;
+}
+
+
+article ul li {
+	margin: 1.5% 1.5% 2% 1.5%;
+	float: left;
+}
+
+figcaption {
+	text-decoration: none;
+	color: white;
+	margin-bottom: 2%;
+}
+
+.footer {
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	height: 30px;
+	background-color: #606060;
+	color: #F8F8F8;
+	text-align: center;
+	clear: both;
+}
