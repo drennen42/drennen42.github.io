@@ -1,0 +1,63 @@
+html, body {
+  background-color: #00406e;
+}
+
+.container {
+  border: 2px solid #00406e;
+  margin-top: 20px;
+}
+
+
+h2, h5, h3, ul, li {
+  color: #00406e;
+}
+
+.top-bar {
+  background-color: white;
+  text-align: center;
+}
+
+.glyphicon {
+  text-decoration: none;
+}
+
+.top-bar-item {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  height: 75px;
+}
+
+.my-navbar {
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+
+.navbtn {
+  color: #00406e;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #00406e;
+  margin: 5px;
+  width: 15.8%;
+  padding: 0;
+}
+
+/* -------- JQuery sections ---------- */
+
+.summary, .experience, .education, .employment, .skills, .projects {
+  background-color: white;
+  display: none;
+}
+
+/* -------- footer --------- */
+.footer {
+  background-color: white;
+  margin-top: 10px;
+  color: #00406e;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #00406e;
+}
