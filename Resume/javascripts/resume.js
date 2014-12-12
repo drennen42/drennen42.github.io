@@ -1,43 +1,38 @@
 $(document).ready(function(){
   $('.summary-btn').on("click", function(e){
     e.preventDefault();
-    console.log("Summary Clicked");
-    $(".sections > div").hide();
     $(".summary").toggle();
+    $(".sections > div:not(.summary)").hide();
+    // $(".summary").toggle();
   });
 
   $('.experience-btn').on("click", function(e){
     e.preventDefault();
-    console.log("Experience Clicked");
-    $(".sections > div").hide();
     $(".experience").toggle();
+    $(".sections > div:not(.experience)").hide();
   });
 
   $('.education-btn').on("click", function(e){
     e.preventDefault();
-    console.log("Education Clicked");
-    $(".sections > div").hide();
     $(".education").toggle();
+    $(".sections > div:not(.education)").hide();
   });
 
   $('.employment-btn').on("click", function(e){
     e.preventDefault();
-    console.log("Employment Clicked");
-    $(".sections > div").hide();
     $(".employment").toggle();
+    $(".sections > div:not(.employment)").hide();
   });
 
   $('.skills-btn').on("click", function(e){
     e.preventDefault();
-    console.log("Skills Clicked");
-    $(".sections > div").hide();
     $(".skills").toggle();
+    $(".sections > div:not(.skills)").hide();
   });
 
 $('.projects-btn').on("click", function(e){
     e.preventDefault();
-    console.log("Projects Clicked");
-    $(".sections > div").hide();
     $(".projects").toggle();
+    $(".sections > div:not(.projects)").hide();
   });
 })
