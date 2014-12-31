@@ -2,8 +2,8 @@ body {
 	background-color: #F8F8F8;
 }
 
-#header {
-	float: left;
+.header {
+	text-align: center;
 	background-color: #606060;
 	height: 10%;
 	width: 100%;
@@ -11,7 +11,7 @@ body {
 	clear: both;
 }
 
-#header h1 {
+.header h1 {
 	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 	text-decoration: underline;
 	color: white;
@@ -20,42 +20,61 @@ body {
 	font-size: 42px;
 	}
 
-#nav {
+.nav {
 	background-color: #606060;
-	float: left;
+	/*float: left;*/
+	color: white;
+	text-align: center;
 	text-decoration: none;
-	margin: 0 0 2% 0;
-	width: 100%;
-	clear: both;
+	/*padding-top: 0.75%;*/
+	/*width: 100%;*/
+	/*clear: both;*/
 	border-style: solid;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	border-top: 2px solid black;
+	/*border-bottom: 2px solid black;*/
+}
+
+a:link {
+	color: white;
+}
+
+.nav a:hover, .nav a:visited {
+	color: DodgerBlue;
+}
+
+.content {
+	text-align: center;
+}
+
+.footer {
+	position: relative;
+	bottom: 1%;
 }
 
 
-#nav ul li {
+/*#nav ul li {
 	float: left;
 	display: inline-block;
 	margin: 1% 0 1% 2.5%;
 	border-radius: 5px;
 	font-weight: bold;
-}
+}*/
 
-#nav ul li a {
+/*#nav ul li a {
 	color: white;
 	text-decoration: none;
 	font-size: 100%;
-}
+}*/
 
-#nav ul li a:hover {
+/*#nav ul li a:hover {
 	color: teal;
-}
+}*/
 
-a:hover {
+/*a:hover {
 	color: teal;
-}
+}*/
 
-aside {
+/*aside {
   position: fixed;
   width: 10%;
   top: 30%;
@@ -93,14 +112,13 @@ aside ul li {
 }
 
 aside ul li a {
-	/* This just formats the text of the links */
 	color: black;
 	text-decoration: none;
 	text-align: center;
-}
+}*/
 
 
-section {
+/*section {
 	float: left;
 	width: 75%;
 	margin: 2% auto 2% 10%;
@@ -163,4 +181,4 @@ figcaption {
 	text-decoration: none;
 	color: white;
 	margin-bottom: 2%;
-}
+}*/

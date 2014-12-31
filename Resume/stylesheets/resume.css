@@ -8,9 +8,9 @@ html, body {
 }
 
 
-h2, h5, h3, ul, li {
+/*h2, h5, h3, ul, li {
   color: #00406e;
-}
+}*/
 
 .top-bar {
   background-color: white;
@@ -22,10 +22,19 @@ h2, h5, h3, ul, li {
 }
 
 .top-bar-item {
+  color: #00406e;
   margin-top: 10px;
   text-align: center;
   text-decoration: none;
   height: 75px;
+}
+
+.top-bar a:link, .top-bar-item a:link, .footer a:link  {
+  color: #00406e;
+}
+
+.top-bar a:hover, .top-bar a:visited, .top-bar-item a:hover, .top-bar-item a:visited, .footer a:hover, .footer a:visited {
+  color: crimson;
 }
 
 .my-navbar {
