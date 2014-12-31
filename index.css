@@ -38,7 +38,7 @@ a:link {
 	color: white;
 }
 
-.nav a:hover, .nav a:visited {
+.nav a:hover, .nav a:visited, .nav-item a:hover, .nav-item a:visited {
 	color: DodgerBlue;
 }
 
