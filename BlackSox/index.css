@@ -1,5 +1,14 @@
+html {
+	/*background-image: url("http://fc00.deviantart.net/fs70/i/2010/277/3/6/baseball_wallpaper_by_broodjekipkorn-d3022nt.png");*/
+	background-image: url("http://images.alphacoders.com/125/125911.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
 body {
-	background-color: #F8F8F8;
+	/*background-color: #F8F8F8;*/
 	height: 100%;
 }
 
