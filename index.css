@@ -1,7 +1,5 @@
 body {
 	background-color: #aaaaaa;
-	/*background-color: #F8F8F8;*/
-	/*background-image: url("images/carbonfiber.png");*/
 }
 
 .header {
@@ -10,7 +8,6 @@ body {
 	top: 0;
 	text-align: center;
 	background-color: black;
-	/*background-color: #606060;*/
 	height: auto;
 	width: 100%;
 	margin: 0;
@@ -73,10 +70,59 @@ a:link {
 	padding-top: 5.5%;
 }
 
+#carousel {
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+}
+
+#carousel ul {
+	width: 4440px;
+	padding: 0;
+	margin: 0;
+}
+
+#carousel ul li {
+	width: 555px;
+	height: auto;
+	max-height: 500px;
+	text-align: center;
+	vertical-align: middle;
+	list-style: none;
+	float: left;
+}
+
+#carousel-img img {
+	margin-left: 0;
+	width: auto;
+	height: auto;
+	max-height: 450px;
+}
+
+.experience-background {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("images/DBC.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	/*z-index: 1;*/
+}
+
+.experience {
+	position: relative;
+	opacity: 1;
+	z-index: -1;
+	width: 100%;
+	height: 500px;
+	max-height: 500px;
+}
+
 .footer {
 	background-color: black;
 	color: DodgerBlue;
-	/*background-color: #606060;*/
 	height: auto;
 	width: 100%;
 	margin: 0;
