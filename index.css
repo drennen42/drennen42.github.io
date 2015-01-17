@@ -1,185 +1,83 @@
 body {
-	background-color: #F8F8F8;
-
+	background-color: #aaaaaa;
+	/*background-color: #F8F8F8;*/
+	/*background-image: url("images/carbonfiber.png");*/
 }
 
 .header {
+	position: fixed;
+	z-index: 1;
+	top: 0;
 	text-align: center;
-	background-color: #606060;
-	height: 10%;
+	background-color: black;
+	/*background-color: #606060;*/
+	height: auto;
 	width: 100%;
 	margin: 0;
+	padding: 1% 0 1.5% 0;
 	clear: both;
 }
 
-.header h1 {
+.header img, .header h3 {
+	float: left;
 	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 	text-decoration: underline;
 	color: white;
-	margin: 1% 0 1% 2%;
+	margin: 1% 2% 1% 2%;
 	text-shadow: 5px 5px 5px gray;
 	font-size: 42px;
 	}
 
 .nav {
-	background-color: #606060;
-	/*float: left;*/
-	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-item {
 	text-align: center;
-	text-decoration: none;
-	/*padding-top: 0.75%;*/
-	/*width: 100%;*/
-	/*clear: both;*/
-	border-style: solid;
-	border-top: 2px solid black;
-	/*border-bottom: 2px solid black;*/
+	width: 100%;
+	height: auto;
+	padding: 0%;
+	margin: 0%;
+}
+
+.nav-item .btn {
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 a:link {
-	color: white;
-}
-
-.nav a:hover, .nav a:visited, .nav-item a:hover, .nav-item a:visited {
 	color: DodgerBlue;
 }
 
+.nav a:hover, .nav a:visited, .nav-item a:hover, .nav-item a:visited, .header img:hover, .header h3:hover {
+	color: maroon;
+}
+
 .content {
+	background-image: url("images/carbonfiber.png");
+	width: 100%;
+	height: auto;
+	color: DodgerBlue;
 	text-align: center;
+	/*margin: .5% 0% .5% 0%;*/
+	margin: 0;
+	padding: 2%;
+	border-top: 4px solid #aaaaaa;
+	border-bottom: 4px solid #aaaaaa;
+}
+
+.aboutme {
+	padding-top: 5.5%;
 }
 
 .footer {
-	position: relative;
-	bottom: 1%;
-}
-
-
-/*#nav ul li {
-	float: left;
-	display: inline-block;
-	margin: 1% 0 1% 2.5%;
-	border-radius: 5px;
-	font-weight: bold;
-}*/
-
-/*#nav ul li a {
-	color: white;
-	text-decoration: none;
-	font-size: 100%;
-}*/
-
-/*#nav ul li a:hover {
-	color: teal;
-}*/
-
-/*a:hover {
-	color: teal;
-}*/
-
-/*aside {
-  position: fixed;
-  width: 10%;
-  top: 30%;
-	background-color: #606060;
-	border-style: double ridge;
-	border-color: black;
-	border-width: 5px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	text-decoration: none;
-}
-
-aside ul {
-	height: 90%;
+	background-color: black;
+	color: DodgerBlue;
+	/*background-color: #606060;*/
+	height: auto;
 	width: 100%;
-	display: inline-block;
-	text-align: center;
 	margin: 0;
-	padding: 0;
 }
-
-
-aside ul li {
-	width: 100%;
-	float: left;
-	text-align: center;
-	text-decoration: none;
-	background-color: white;
-	margin: 0;
-	padding: 0;
-	border-radius: 0;
-	color: black;
-	font-weight: bold;
-}
-
-aside ul li a {
-	color: black;
-	text-decoration: none;
-	text-align: center;
-}*/
-
-
-/*section {
-	float: left;
-	width: 75%;
-	margin: 2% auto 2% 10%;
-	text-align: center;
-	font-size: 30px;
-	border-style: double ridge;
-	border-radius: 10px;
-}
-
-section h1 {
-	color: #606060;
-	margin-left: 15%;
-	text-align: left;
-	text-decoration: underline;
-}
-
-
-article {
-	width: 80%;
-	margin: 2% auto 2% 10%;
-	padding: 5px 0 5px 0;
-	float: left;
-}
-
-table {
-	height: 100%;
-	width: 90%;
-	margin: 0 5% 0 5%;
-	border: 5px solid #606060;
-}
-
-th,td{
-	border: 5px solid black;
-	margin: 2%;
-	background-color: #606060;
-	color: white;
-}
-
-td a img {
-	width: 80%;
-	height: 80%;
-	margin: 5% 2.5% 5% 2.5%;
-	border: 2px solid white;
-}
-
-article header {
-	width: 100%;
-	float: left;
-	color: #606060;
-	text-align: left;
-}
-
-
-article ul li {
-	margin: 1.5% 1.5% 2% 1.5%;
-	float: left;
-}
-
-figcaption {
-	text-decoration: none;
-	color: white;
-	margin-bottom: 2%;
-}*/
