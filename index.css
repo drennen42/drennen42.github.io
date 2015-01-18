@@ -77,19 +77,20 @@ a:link {
 }
 
 #carousel ul {
-	width: 4440px;
+	width: 5000px;
 	padding: 0;
 	margin: 0;
 }
 
 #carousel ul li {
-	width: 555px;
+	width: 560px;
 	height: auto;
 	max-height: 500px;
 	text-align: center;
 	vertical-align: middle;
 	list-style: none;
 	float: left;
+	margin: 0 0.75em 0 0.75em;
 }
 
 #carousel-img img {
@@ -97,27 +98,33 @@ a:link {
 	width: auto;
 	height: auto;
 	max-height: 450px;
+	max-width: 555px;
 }
 
-.experience-background {
+.experience {
 	position: relative;
+	text-align: center;
 	width: 100%;
-	height: 100%;
+	height: 450px;
+	max-height: 700px;
+	color: DodgerBlue;
+}
+
+.experience::after {
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	width: 100%;
+	height: auto;
 	background: url("images/DBC.jpg");
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	opacity: 0.5;
-	/*z-index: 1;*/
-}
-
-.experience {
-	position: relative;
-	opacity: 1;
 	z-index: -1;
-	width: 100%;
-	height: 500px;
-	max-height: 500px;
 }
 
 .footer {
