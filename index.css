@@ -127,6 +127,20 @@ a:link {
 	z-index: -1;
 }
 
+.education {
+	text-align: center;
+}
+
+.education-item {
+	top: 0;
+}
+
+.education-item img{
+	height: 100px;
+	width: auto;
+	max-width: 150px;
+}
+
 .footer {
 	background-color: black;
 	color: DodgerBlue;
