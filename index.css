@@ -11,7 +11,7 @@ body {
 	height: auto;
 	width: 100%;
 	margin: 0;
-	padding: 1% 0 1.5% 0;
+	padding: 0.0% 0 0.0% 0;
 	clear: both;
 }
 
@@ -30,14 +30,6 @@ body {
 	padding: 0;
 }
 
-.nav-item {
-	text-align: center;
-	width: 100%;
-	height: auto;
-	padding: 0%;
-	margin: 0%;
-}
-
 .nav-item .btn {
 	width: 100%;
 	text-align: center;
@@ -46,7 +38,7 @@ body {
 }
 
 a:link {
-	color: DodgerBlue;
+	/*color: DodgerBlue;*/
 }
 
 .nav a:hover, .nav a:visited, .nav-item a:hover, .nav-item a:visited, .header img:hover, .header h3:hover {
@@ -128,7 +120,7 @@ a:link {
 }
 
 .education {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .education-item {
